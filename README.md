@@ -2,8 +2,6 @@
 
 **Gerador de Lore e Concept Art para RPGs com Memória Semântica e Context Automation**
 
-![NexusArt Capa](https://via.placeholder.com/1200x400.png?text=NexusArt+-+AI+Concept+Generator)
-
 O **NexusArt** é uma aplicação completa (Full-Stack AI) que orquestra modelos do Google Gemini para gerar biografias ricas e artes conceituais de alta fidelidade para personagens de RPG em paralelo, entregando resultados em menos de 15 segundos.
 
 Além da geração, o projeto inclui uma **Memória Vetorial** (via Supabase pgvector) que permite buscar personagens anteriores utilizando similaridade semântica (linguagem natural).
@@ -33,7 +31,7 @@ Além da geração, o projeto inclui uma **Memória Vetorial** (via Supabase pgv
 
 ## 📖 Arquitetura e Clean Code
 
-Este projeto segue rigorosos padrões de **Clean Code** e **Spec-Driven Development (SDD)**. Toda a lógica de IA é isolada da interface, permitindo fácil migração de modelos e manutenção.
+Este projeto segue rigorosos padrões de **Clean Code** e **Spec-Driven Development (SDD)**. Toda a lógica de IA é isolada da interface, permitindo fácil migração de modelos e manutenção. 
 👉 **[Guia Técnico Arquitetural](docs/TECHNICAL_GUIDE.md)** | **[Log de Debugging e Migração](docs/GOOGLE_GENAI_DEBUG_LOG.md)**.
 
 ---
@@ -79,4 +77,4 @@ python -m streamlit run app.py
 ```
 
 ---
-*Desenvolvido com Engenharia de Contexto Avançada e fluxo GSD.*
+*Desenvolvido com Engenharia de Contexto Avançada e fluxo GSD.(arquivos GSD: /.planning)*
