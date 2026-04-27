@@ -1,0 +1,8 @@
+streamlit
+langchain
+langchain-google-genai
+supabase
+python-dotenv
+langsmith
+pydantic
+google-genai
