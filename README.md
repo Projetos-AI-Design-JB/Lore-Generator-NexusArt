@@ -29,7 +29,7 @@ Além da geração, o projeto inclui uma **Memória Vetorial** (via Supabase pgv
 - **Frameworks de IA**: LangChain, Google GenAI SDK (`google-genai`), Context7
 - **Banco de Dados**: Supabase (PostgreSQL + pgvector)
 - **Frontend**: Streamlit
-- **Monitoramento**: LangSmith
+- **Monitoramento de custos API de imagem**: LangSmith
 
 ## 📖 Arquitetura e Clean Code
 
