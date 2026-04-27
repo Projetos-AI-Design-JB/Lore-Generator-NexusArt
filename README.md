@@ -4,7 +4,7 @@
 
 O **NexusArt** é uma aplicação completa (Full-Stack AI) que orquestra modelos do Google Gemini para gerar biografias ricas e artes conceituais de alta fidelidade para personagens de RPG em paralelo, entregando resultados em menos de 15 segundos.
 
-Além da geração, o projeto inclui uma **Memória Vetorial** (via Supabase pgvector) que permite buscar personagens anteriores utilizando similaridade semântica (linguagem natural).
+Além da geração, o projeto inclui uma **Memória Vetorial** (via Supabase pgvector) que permite buscar personagens anteriores utilizando similaridade semântica (linguagem natural). 
 
 ---
 
