@@ -1,4 +1,4 @@
-# 🌌 NexusArt
+# NexusArt
 
 **Gerador de Lore e Concept Art para RPGs com Memória Semântica e Context Automation**
 
@@ -10,12 +10,12 @@ Além da geração, o projeto inclui uma **Memória Vetorial** (via Supabase pgv
 
 ## 🚀 Funcionalidades
 
-- 🎭 **Lore Engine**: Geração de histórias de fundo detalhadas usando `Gemini 2.5 Flash` e `Structured Output` (Pydantic).
-- 🎨 **Art Engine**: Criação visual usando o motor de imagens mais avançado do Google (**Imagen 4.0** via `google-genai`), suportando múltiplos estilos artísticos.
-- ⚡ **Orquestração Assíncrona**: O texto e a imagem são gerados simultaneamente usando `asyncio` e `ThreadPoolExecutor`.
-- 🧠 **Busca Semântica**: Histórico salvo no **Supabase** com vetores de alta precisão (**gemini-embedding-2**).
-- 🛡️ **Context Automation**: Integração com **Context7 MCP** para garantir que o código utilize sempre as documentações e APIs mais atualizadas das bibliotecas.
-- 🖥️ **Interface Premium**: Dashboard interativo e responsivo construído com **Streamlit**.
+-  **Lore Engine**: Geração de histórias de fundo detalhadas usando `Gemini 2.5 Flash` e `Structured Output` (Pydantic).
+-  **Art Engine**: Criação visual usando o motor de imagens mais avançado do Google (**Imagen 4.0** via `google-genai`), suportando múltiplos estilos artísticos.
+-  **Orquestração Assíncrona**: O texto e a imagem são gerados simultaneamente usando `asyncio` e `ThreadPoolExecutor`.
+-  **Busca Semântica**: Histórico salvo no **Supabase** com vetores de alta precisão (**gemini-embedding-2**).
+-  **Context Automation**: Integração com **Context7 MCP** para garantir que o código utilize sempre as documentações e APIs mais atualizadas das bibliotecas.
+-  **Interface Premium**: Dashboard interativo e responsivo construído com **Streamlit**.
 
 ## 🛠️ Stack Tecnológica
 
@@ -32,7 +32,7 @@ Além da geração, o projeto inclui uma **Memória Vetorial** (via Supabase pgv
 ## 📖 Arquitetura e Clean Code
 
 Este projeto segue rigorosos padrões de **Clean Code** e **Spec-Driven Development (SDD)**. Toda a lógica de IA é isolada da interface, permitindo fácil migração de modelos e manutenção. 
-👉 **[Guia Técnico Arquitetural](docs/TECHNICAL_GUIDE.md)** | **[Log de Debugging e Migração](docs/GOOGLE_GENAI_DEBUG_LOG.md)**.
+ **[Guia Técnico Arquitetural](docs/TECHNICAL_GUIDE.md)** | **[Log de Debugging e Migração](docs/GOOGLE_GENAI_DEBUG_LOG.md)**.
 
 ---
 
