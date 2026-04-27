@@ -77,4 +77,5 @@ python -m streamlit run app.py
 ```
 
 ---
-*Desenvolvido com Engenharia de Contexto Avançada e fluxo GSD.(arquivos GSD: .planning)*
+*Desenvolvido com Engenharia de Contexto Avançada e fluxo GSD. 
+arquivos GSD: (/.planning)*
